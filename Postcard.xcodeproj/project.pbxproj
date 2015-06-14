@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D98354D11B1C6A0400795211 /* SagFam.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = D98354D01B1C6A0400795211 /* SagFam.jpeg */; };
+		D98354D31B1C6D8500795211 /* Einstein.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = D98354D21B1C6D8500795211 /* Einstein.jpeg */; };
 		D9AA3E6C1B1851CE008A79D6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9AA3E6B1B1851CE008A79D6 /* AppDelegate.swift */; };
 		D9AA3E6E1B1851CE008A79D6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9AA3E6D1B1851CE008A79D6 /* ViewController.swift */; };
 		D9AA3E711B1851CE008A79D6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9AA3E6F1B1851CE008A79D6 /* Main.storyboard */; };
@@ -26,6 +28,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D98354D01B1C6A0400795211 /* SagFam.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = SagFam.jpeg; sourceTree = "<group>"; };
+		D98354D21B1C6D8500795211 /* Einstein.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Einstein.jpeg; sourceTree = "<group>"; };
 		D9AA3E661B1851CE008A79D6 /* Postcard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Postcard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9AA3E6A1B1851CE008A79D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D9AA3E6B1B1851CE008A79D6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -90,6 +94,8 @@
 		D9AA3E691B1851CE008A79D6 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				D98354D21B1C6D8500795211 /* Einstein.jpeg */,
+				D98354D01B1C6A0400795211 /* SagFam.jpeg */,
 				D9AA3E6A1B1851CE008A79D6 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -194,6 +200,8 @@
 			files = (
 				D9AA3E711B1851CE008A79D6 /* Main.storyboard in Resources */,
 				D9AA3E761B1851CE008A79D6 /* LaunchScreen.xib in Resources */,
+				D98354D31B1C6D8500795211 /* Einstein.jpeg in Resources */,
+				D98354D11B1C6A0400795211 /* SagFam.jpeg in Resources */,
 				D9AA3E731B1851CE008A79D6 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -337,8 +345,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Postcard/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -347,8 +357,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Postcard/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -405,6 +417,7 @@
 				D9AA3E871B1851CE008A79D6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D9AA3E881B1851CE008A79D6 /* Build configuration list for PBXNativeTarget "PostcardTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +426,7 @@
 				D9AA3E8A1B1851CE008A79D6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
